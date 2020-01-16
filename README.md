@@ -92,7 +92,7 @@ functions starting with an uppercase letter. The phyla are now classes, and I wi
 to upper-case class names here. The creator functions – well, the easy mapping is to
 have those as _constructors_, not regular functions, meaning that they can be upper-case,
 too. In Kotlin proper, a phylum creation would look exactly the same as in my old C++
-code (unfortunatly, though, the creation is fom Java, oh well).
+code (unfortunately, though, the creation is fom Java, oh well).
 
 The definition of the abstract phylum `term` above can now be written as:
 ```kotlin
