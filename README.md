@@ -72,12 +72,12 @@ The result is in [Rpn.g4](file:src/main/antlr4/de/piefel/Rpn.g4). One example pa
 rule looks like this, the closest I could get to the original Bison code:
 
 ```antlrv4
-    term returns [Term trm]:
-        NUMBER
-            { $trm = new Number($NUMBER.int); }
-        | IDENT
-            { $trm = new Ident($IDENT.text); }
-        ;
+term returns [Term trm]:
+    NUMBER
+        { $trm = new Number($NUMBER.int); }
+    | IDENT
+        { $trm = new Ident($IDENT.text); }
+    ;
 ```
 
 ### Definition of the AST
